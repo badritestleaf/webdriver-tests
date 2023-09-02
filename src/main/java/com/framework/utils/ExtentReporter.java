@@ -48,6 +48,8 @@ public abstract class ExtentReporter extends DriverInstance {
 		htmlReporter.config().setChartVisibilityOnOpen(!true);
 		htmlReporter.config().setTheme(Theme.DARK);
 		htmlReporter.config().setDocumentTitle("Automation");
+		htmlReporter.config().setDocumentTitle("Automation- checking to see merge con");
+
 		htmlReporter.config().setEncoding("utf-8");
 		htmlReporter.config().setReportName("Leaftaps");
 		htmlReporter.setAppendExisting(true);

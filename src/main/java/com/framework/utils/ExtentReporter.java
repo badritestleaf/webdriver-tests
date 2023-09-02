@@ -46,7 +46,7 @@ public abstract class ExtentReporter extends DriverInstance {
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("./" + folderName + "/" + fileName);
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
 		htmlReporter.config().setChartVisibilityOnOpen(!true);
-		htmlReporter.config().setTheme(Theme.STANDARD);
+		htmlReporter.config().setTheme(Theme.DARK);
 		htmlReporter.config().setDocumentTitle("Leaftaps");
 		htmlReporter.config().setEncoding("utf-8");
 		htmlReporter.config().setReportName("Leaftaps");
